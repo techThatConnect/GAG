@@ -1,5 +1,5 @@
-<div class="">
-  <div class="inline ">
+<div class="flex  md:inline">
+  <div class="inline items">
     <svg class="mx-auto" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     width="3em" viewBox="0 0 219 215" enable-background="new 0 0 219 215" xml:space="preserve">
   <path fill="transparent" opacity="1.000000" stroke="none" 
@@ -239,8 +239,8 @@
   
   
   
-  <div class="">
-    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  <div class="items pt-4 md:pt-0">
+    <svg class="mx-auto"  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      width="3em" viewBox="0 0 393 158" enable-background="new 0 0 393 158" xml:space="preserve">
   <path fill="transparent" opacity="1.000000" stroke="none" 
     d="
@@ -327,3 +327,10 @@
   </div>
 </div>
 
+<style>
+  .items {
+    justify-content:start;
+    align-content: start;
+
+  }
+</style>

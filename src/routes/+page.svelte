@@ -1,17 +1,25 @@
-
-
-<body class="dark:bg-dark_pink m-0">
-   <div>
-   <h1 class="text-center text-9xl font-bold">
-      Glitter and Grit
-     </h1>
-     <h2 class="text-center text-3xl font-bold">Your premier source for drag entertainment in rural Nova Scotia.</h2>
-   </div>
+<script>
+   import Title from './components/title.svelte'
+</script>
+<body class="h-screen">
+   <Title/>
 </body>
+
+
+
+
+
 
 
   
   
   <style lang="postcss">
+  body {
+      background-image:linear-gradient(to top, rgba(253, 224, 239, 1), rgba(256, 256, 256, 0.25)), url('/src/images/test.jpg');
+      background-position: top;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+   }
  
   </style>
