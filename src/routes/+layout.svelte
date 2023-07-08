@@ -9,14 +9,14 @@
   
 
 
-  <body class="dark:bg-dark_pink">
+
     
   
 
 <div class=" ">
   <nav class="navbar dark:bg-purp bg-light_pink pb-0 md:pb-2" >
     <div class="logoBox" >
-      <a on:click={() => (test = !test)} on:keydown={() => (test = !test)} href="/" class="bg-light_pink"> <Logo /> </a>
+      <a  href="/" class="bg-light_pink"> <Logo /> </a>
     </div>
  
 <Menu />
@@ -29,19 +29,19 @@
           {#if test}
           <div id="menu" class="flex justify-center menu md:hidden items-center w-auto pb-12">
            
-            <div class="text-lg">
+            <div class="text-lg dark:text-light_pink">
               <div class=" block mt-4 md:inline-block   mr-4">
-                <button class="p-3 item inline flex justify-start"  on:click={() => (test2 = !test2)} on:keydown={() => (test2 = !test2)}>
+                <button class="p-3 item inline flex justify-start hover:bg-gradient-to-l hover:from-light_pink hover:to-dark_pink hover:dark:from-purp hover:dark:to-dark"  on:click={() => (test2 = !test2)} on:keydown={() => (test2 = !test2)}>
                   About
               </button>
               {#if test2}
-          <ul class="p-8 mt-4 z-20 rounded-2xl hover:bg-dark_pink" >
-          <li class="p-3 item2 hover:bg-light_pink"><a  on:click={() => (test = !test)} on:keydown={() => (test = !test)} href="/about">Our story</a></li>
-          <li class="item2 p-3 hover:bg-light_pink"><a  on:click={() => (test3 = !test3)} on:keydown={() => (test3 = !test3)} href="/team">Meet the Team</a> </li>
+          <ul class="p-8 mt-4 z-20 rounded-2xl hover:bg-dark_pink dark:hover:bg-dark" >
+          <li class="p-3 item2 hover:bg-light_pink dark:hover:bg-purp"><a  on:click={() => (test = !test)} on:keydown={() => (test = !test)} href="/about">Our story</a></li>
+          <li class="item2 p-3 hover:bg-light_pink dark:hover:bg-purp"><button  on:click={() => (test3 = !test3)} on:keydown={() => (test3 = !test3)}>Meet the Team</button> </li>
           {#if test3}
-          <li><ul class="p-3 hover:bg-light_pink">
-            <li class="p-3 m-6 hover:bg-dark_pink" ><a  on:click={() => (test = !test)} on:keydown={() => (test = !test)}  href="/team/Diana">Diana B. Tease</a></li>
-            <li class="p-3 m-6 hover:bg-dark_pink" ><a  on:click={() => (test = !test)} on:keydown={() => (test = !test)}  href="/team/Queera">Queera Bang</a></li>
+          <li><ul class="p-3 hover:bg-light_pink dark:hover:bg-purp">
+            <li class="p-3 m-6 hover:bg-dark_pink dark:hover:bg-dark" ><a  on:click={() => (test = !test)} on:keydown={() => (test = !test)}  href="/team/Diana">Diana B. Tease</a></li>
+            <li class="p-3 m-6 hover:bg-dark_pink dark:hover:bg-dark" ><a  on:click={() => (test = !test)} on:keydown={() => (test = !test)}  href="/team/Queera">Queera Bang</a></li>
           </ul></li>
           {/if}
           </ul>
@@ -50,13 +50,13 @@
 
 
 
-              <a on:click={() =>  (test= !test)} on:keydown={() => (test= !test)}  href="/service" class="item block p-3 md:inline-block  mr-4">
+              <a  on:click={() =>  (test= !test)} on:keydown={() => (test= !test)}  href="/service" class="item block p-3 md:inline-block  mr-4 hover:bg-gradient-to-l hover:from-light_pink hover:to-dark_pink hover:dark:from-purp hover:dark:to-dark">
                Services
               </a>
-              <a on:click={() =>  (test= !test)} on:keydown={() => (test= !test)}  href="/about" class="item block p-3  md:inline-block  mr-4">
+              <a on:click={() =>  (test= !test)} on:keydown={() => (test= !test)}  href="/contact" class="item block p-3  md:inline-block  mr-4 hover:bg-gradient-to-l hover:from-light_pink hover:to-dark_pink hover:dark:from-purp hover:dark:to-dark">
                 Contact
               </a>
-              <a on:click={() =>  (test= !test)} on:keydown={() => (test= !test)}  href="/about" class="item block p-3 md:inline-block mr-4">
+              <a on:click={() =>  (test= !test)} on:keydown={() => (test= !test)}  href="/events" class="item block p-3 md:inline-block mr-4 hover:bg-gradient-to-l hover:from-light_pink hover:to-dark_pink hover:dark:from-purp hover:dark:to-dark">
                Events
               </a>
              
@@ -68,19 +68,20 @@
               </div>
               {/if}
 
-               
+              
   </nav>
   
+
   </div>
-    
-
-
-
-
+  
   <slot />
-</body>
+  
+
+ 
 
   <style>
+
+
 .navbar {
   position: sticky;
   top:0px;
@@ -110,7 +111,7 @@
 
 .item:hover {
   border-radius: 36px;
-background: linear-gradient(145deg, #e4cad7, #fff0ff);
+
 box-shadow:  6px 6px 12px #b49faa,
              -6px -6px 12px #ffffff;
  }
@@ -119,7 +120,7 @@ box-shadow:  6px 6px 12px #b49faa,
 
  .item:active {
   border-radius: 36px;
-background: linear-gradient(315deg, #e4cad7, #fff0ff);
+
 box-shadow:  -6px -6px 12px #b49faa,
              6px 6px 12px #ffffff;
  }

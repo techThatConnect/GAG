@@ -17,7 +17,10 @@ export default {
         light_pink : '#fde0ef',
        dark_pink :'#f4b6e7',
          dark : '#26152f',
-         light :  '#fffffe'
+         light :  '#fffffe',
+         black : '#000000',
+         grey: '#cfc8cd'
+
     },
     
   },
