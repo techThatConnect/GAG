@@ -1,6 +1,9 @@
+
 <script>
 import Footthing from '$lib/components/footer.svelte'
 </script>
+
+
 
 <body class="h-full bg-gradient-to-t from-light to-grey dark:bg-black">
    
