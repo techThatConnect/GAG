@@ -1,3 +1,7 @@
+<script>
+   import Footthing from '$lib/components/footer.svelte'
+</script>
+
 <body class="h-screen bg-gradient-to-t from-light to-grey dark:bg-black">
    
 <br>
@@ -38,7 +42,7 @@
 <div class="hidden md:block  p-4 ml-24 mr-24">
    <img class=" " src="src/images/image4.png" alt="">
 </div>
- 
+ <Footthing />
 </body>
 
 

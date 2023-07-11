@@ -1,4 +1,6 @@
-
+<script>
+import Footthing from '$lib/components/footer.svelte'
+</script>
 
 <body class="h-full bg-gradient-to-t from-light to-grey dark:bg-black">
    
@@ -32,6 +34,7 @@ Versions of the Lorem ipsum text have been used in typesetting at least since th
    </p>
 </div>
 </div>
+<Footthing />
 </body>
 
 <style>

@@ -1,5 +1,5 @@
 <script>
-    import { Input } from "postcss";
+   import Footthing from '$lib/components/footer.svelte'
 
 </script>
 <body class="h-screen bg-gradient-to-t from-light to-grey dark:bg-black">
@@ -61,7 +61,7 @@
 
     </div>
     
-     
+     <Footthing />
     </body>
     
     

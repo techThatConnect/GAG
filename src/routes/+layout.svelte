@@ -1,7 +1,7 @@
 <script>
     import "../app.css";
-  import Logo from './components/logo.svelte'
-  import Menu from './components/menu.svelte'
+  import Logo from '../lib/components/logo.svelte'
+  import Menu from '../lib/components/menu.svelte'
   let test = false
   let test2 = false;
   let test3 = false;
@@ -36,12 +36,12 @@
               </button>
               {#if test2}
           <ul class="p-8 mt-4 z-20 rounded-2xl hover:bg-dark_pink dark:hover:bg-dark" >
-          <li class="p-3 item2 hover:bg-light_pink dark:hover:bg-purp"><a  on:click={() => (test = !test)} on:keydown={() => (test = !test)} href="/about">Our story</a></li>
-          <li class="item2 p-3 hover:bg-light_pink dark:hover:bg-purp"><button  on:click={() => (test3 = !test3)} on:keydown={() => (test3 = !test3)}>Meet the Team</button> </li>
+          <li class="p-3 item2 rounded-2xl hover:bg-light_pink dark:hover:bg-purp"><a  on:click={() => (test = !test)} on:keydown={() => (test = !test)} href="/about">Our story</a></li>
+          <li class="item2 p-3 rounded-2xl hover:bg-light_pink dark:hover:bg-purp"><button  on:click={() => (test3 = !test3)} on:keydown={() => (test3 = !test3)}>Meet the Team</button> </li>
           {#if test3}
-          <li><ul class="p-3 hover:bg-light_pink dark:hover:bg-purp">
-            <li class="p-3 m-6 hover:bg-dark_pink dark:hover:bg-dark" ><a  on:click={() => (test = !test)} on:keydown={() => (test = !test)}  href="/team/Diana">Diana B. Tease</a></li>
-            <li class="p-3 m-6 hover:bg-dark_pink dark:hover:bg-dark" ><a  on:click={() => (test = !test)} on:keydown={() => (test = !test)}  href="/team/Queera">Queera Bang</a></li>
+          <li><ul class="p-3 rounded-2xl hover:bg-light_pink dark:hover:bg-purp">
+            <li class="p-3 m-6 rounded-2xl hover:bg-dark_pink dark:hover:bg-dark" ><a  on:click={() => (test = !test)} on:keydown={() => (test = !test)}  href="/team/Diana">Diana B. Tease</a></li>
+            <li class="p-3 m-6 rounded-2xl hover:bg-dark_pink dark:hover:bg-dark" ><a  on:click={() => (test = !test)} on:keydown={() => (test = !test)}  href="/team/Queera">Queera Bang</a></li>
           </ul></li>
           {/if}
           </ul>

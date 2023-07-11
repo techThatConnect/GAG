@@ -1,5 +1,5 @@
 <script>
-
+import Footthing from '../lib/components/footer.svelte'
 
 </script>
 
@@ -20,7 +20,7 @@
          e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
          })();
          </script></div>
-
+<Footthing />
 </body>
 
 
