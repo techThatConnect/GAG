@@ -1,0 +1,24 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/about": [
+		"src/routes/+layout.js"
+	],
+	"/contact": [
+		"src/routes/+layout.js"
+	],
+	"/events": [
+		"src/routes/+layout.js"
+	],
+	"/service": [
+		"src/routes/+layout.js"
+	],
+	"/team/Diana": [
+		"src/routes/+layout.js"
+	],
+	"/team/Queera": [
+		"src/routes/+layout.js"
+	]
+}
