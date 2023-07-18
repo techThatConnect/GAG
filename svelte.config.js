@@ -6,9 +6,14 @@ import adapter from '@sveltejs/adapter-netlify';
 const config = {
     kit: {
         // default options are shown
-        adapter: adapter()
+        adapter: adapter(
+
+        ),
+        prerender: {
+            handleHttpError: 'ignore',
     },
 	preprocess: vitePreprocess()
+}
 };
 
 
