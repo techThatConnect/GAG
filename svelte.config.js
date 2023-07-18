@@ -9,9 +9,7 @@ const config = {
         adapter: adapter(
 
         ),
-        prerender: {
-            handleHttpError: 'ignore',
-    },
+ 
 	preprocess: vitePreprocess()
 }
 };
