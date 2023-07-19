@@ -1,5 +1,7 @@
 <script>
-   import Footthing from '$lib/components/footer.svelte'
+   import Footthing from '../../../lib/components/footer.svelte'
+   import picture from '$lib/images/image2.jpg'
+   import insta from '$lib/images/instagram.png'
 </script>
 
 
@@ -10,7 +12,7 @@
       <h1 class="text-4xl  p-6 inline">Diana B. Tease</h1>
    </div>
 <div class="p-12 row-start-2 col-span-3 lg:col-span-1">
-   <img src="/images/image2.jpg" alt="" class="h-100 w-100">
+   <img src="{picture}" alt="" class="h-100 w-100">
 
 </div>
 <div class="row-start-3 lg:row-start-2 p-2 lg:p-12 col-start-1 lg:col-start-2 col-span-3 lg:col-span-1">
@@ -21,7 +23,7 @@
 
       <div class="flex">
          <a href="https://www.instagram.com/diana.b.tease/">
-            <img class="icon" src="/images/instagram.png" alt="">
+            <img class="icon" src="{insta}" alt="blah">
          </a>
          <a class=" ml-4 p-2 bg-light_pink dark:bg-purp" href="https://www.wheresmyinsulin.gay">
             wheresmyinsulin.gay

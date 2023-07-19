@@ -1,5 +1,6 @@
 <script>
-   import Footthing from '$lib/components/footer.svelte'
+   import Footthing from '../../lib/components/footer.svelte'
+import pic from '$lib/images/image4.png'
 </script>
 
 <body class="h-screen bg-gradient-to-t from-light to-grey dark:bg-black">
@@ -22,7 +23,7 @@
             At Glitter & Grit, we produce a range of drag events, including drag shows, karaoke, trivia, and bachelorette parties. Whether you’re a seasoned drag fan or a curious newcomer, our events are sure to entertain and inspire. Our performers are some of the best in the business, bringing their unique styles and personalities to every show.
    
       </p>
-      <img class="sm:hidden " src="/images/image4.png" alt="">
+      <img class="sm:hidden " src="{pic}" alt="">
    </div>
 
 <div class="xl:flex-1 dark:text-light_pink">
@@ -40,7 +41,7 @@
 </div>
 
 <div class="hidden md:block  p-4 ml-24 mr-24">
-   <img class=" " src="/images/image4.png" alt="">
+   <img class=" " src="{pic}" alt="">
 </div>
  <Footthing />
 </body>

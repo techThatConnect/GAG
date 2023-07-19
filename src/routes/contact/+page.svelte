@@ -1,5 +1,7 @@
 <script>
-   import Footthing from '$lib/components/footer.svelte'
+   import Footthing from '../../lib/components/footer.svelte'
+   import orange from '$lib/images/logo-orange.png'
+   import insta from '$lib/images/instagram.png'
 
 </script>
 <body class="h-screen bg-gradient-to-t from-light to-grey dark:bg-black">
@@ -43,10 +45,10 @@
       <br>
       <div class="flex flex-wrap justify-center">
          <a class="p-4 inline" href="https://www.eventbrite.ca/o/glitter-and-grit-events-54272475463">
-            <img class="w-24 h-auto" src="/images/logo-orange.png" alt="">
+            <img class="w-24 h-auto" src="{orange}" alt="">
        </a> 
        <a  class="p-4 inline" href="https://www.instagram.com/gag.events/">
-         <img class="w-20 h-auto"  src="/images/instagram.png" alt="">
+         <img class="w-20 h-auto"  src="{insta}" alt="">
        </a>
        <a class="p-4 inline" href="https://www.facebook.com/profile.php?id=100091639494650">
          <svg class="w-20 h-auto" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">

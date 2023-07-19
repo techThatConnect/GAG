@@ -6,7 +6,7 @@ export const handler = init({
 	assets: new Set(["favicon.png"]),
 	mimeTypes: {".png":"image/png"},
 	_: {
-		client: {"start":"_app/immutable/entry/start.c8dde70f.js","app":"_app/immutable/entry/app.328595fa.js","imports":["_app/immutable/entry/start.c8dde70f.js","_app/immutable/chunks/scheduler.e108d1fd.js","_app/immutable/chunks/singletons.6c60a2ae.js","_app/immutable/entry/app.328595fa.js","_app/immutable/chunks/scheduler.e108d1fd.js","_app/immutable/chunks/index.10baf253.js"],"stylesheets":[],"fonts":[]},
+		client: {"start":"_app/immutable/entry/start.4ed92990.js","app":"_app/immutable/entry/app.7a2e9764.js","imports":["_app/immutable/entry/start.4ed92990.js","_app/immutable/chunks/scheduler.a7e64d23.js","_app/immutable/chunks/singletons.77107ac9.js","_app/immutable/entry/app.7a2e9764.js","_app/immutable/chunks/scheduler.a7e64d23.js","_app/immutable/chunks/index.8e100cb3.js"],"stylesheets":[],"fonts":[]},
 		nodes: [
 			() => import('../server/nodes/0.js'),
 			() => import('../server/nodes/1.js'),
