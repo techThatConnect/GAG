@@ -1,23 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.png" />
-		<meta name="viewport" content="width=device-width" />
-		
-		<link href="./_app/immutable/assets/0.76a8c144.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/3.c3c3def8.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.f68c507b.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.9ea632dc.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.57ac7f54.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.10baf253.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.ea9b0236.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/3.66512f79.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/footer.6b67dfcf.js">
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">  <div class=""><nav class="navbar dark:bg-purp bg-light_pink pb-0 md:pb-2 svelte-1f3k8v2"><div class="logoBox svelte-1f3k8v2"><a href="/" class="bg-light_pink"><div class="flex md:inline" data-svelte-h="svelte-120hfxz"><div class="inline items svelte-k31fak"><svg class="mx-auto" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="3em" viewBox="0 0 219 215" enable-background="new 0 0 219 215" xml:space="preserve"><path fill="transparent" opacity="1.000000" stroke="none" d="
+import { c as create_ssr_component, v as validate_component } from "../../chunks/ssr.js";
+const app = "";
+const logo_svelte_svelte_type_style_lang = "";
+const css$2 = {
+  code: ".items.svelte-k31fak{justify-content:start;align-content:start}",
+  map: null
+};
+const Logo = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  $$result.css.add(css$2);
+  return `<div class="flex md:inline" data-svelte-h="svelte-120hfxz"><div class="inline items svelte-k31fak"><svg class="mx-auto" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="3em" viewBox="0 0 219 215" enable-background="new 0 0 219 215" xml:space="preserve"><path fill="transparent" opacity="1.000000" stroke="none" d="
   M220.000000,81.000000 
    C220.000000,125.166664 219.961990,168.833435 220.083557,212.499771 
    C220.091858,215.482986 219.482285,216.086731 216.499878,216.082260 
@@ -270,38 +260,26 @@
     C239.687836,141.970673 230.439346,142.575867 221.190384,143.173721 
     C219.144821,143.305954 218.889282,141.593353 218.299911,140.280014 
     C214.158340,131.050751 210.036194,121.812782 205.759125,112.227852 
-  z"></path></svg></div> </div></a></div> <div id="menu" class="menu hidden md:flex place-items-start items-start w-auto svelte-1y64ie6"><div class="p-3 mt-1 md:inline-block mr-4 dark:text-light_pink"><button class="p-3 item hover:bg-gradient-to-l hover:from-light_pink hover:to-dark_pink hover:dark:from-purp hover:dark:to-dark svelte-1y64ie6" data-svelte-h="svelte-j311hs">About</button> </div> <a href="/service" class="item block p-3 mt-4 md:inline-block dark:text-light_pink mr-4 mr-4 hover:bg-gradient-to-l hover:from-light_pink hover:to-dark_pink hover:dark:from-purp hover:dark:to-dark svelte-1y64ie6" data-svelte-h="svelte-1ebzuea">Services</a> <a href="/contact" class="item block p-3 mt-4 md:inline-block mr-4 dark:text-light_pink mr-4 hover:bg-gradient-to-l hover:from-light_pink hover:to-dark_pink hover:dark:from-purp hover:dark:to-dark svelte-1y64ie6" data-svelte-h="svelte-uma1bp">Contact</a> <a href="/events" class="item block p-3 mt-4 md:inline-block mr-4 dark:text-light_pink mr-4 hover:bg-gradient-to-l hover:from-light_pink hover:to-dark_pink hover:dark:from-purp hover:dark:to-dark svelte-1y64ie6" data-svelte-h="svelte-oynrb7">Events</a> </div> <button class="p-1 md:hidden flex justify-end " data-svelte-h="svelte-jgpix6"><svg width="3em" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m13 16.75c0-.414-.336-.75-.75-.75h-9.5c-.414 0-.75.336-.75.75s.336.75.75.75h9.5c.414 0 .75-.336.75-.75zm2.195-5.992 2.746 2.999c.142.154.342.243.552.243s.41-.088.553-.242l2.757-2.999c.132-.144.197-.326.197-.507 0-.684-.841-1.008-1.303-.508l-2.202 2.397-2.194-2.396c-.46-.503-1.303-.175-1.303.507 0 .18.065.362.197.506zm-2.195.992c0-.414-.336-.75-.75-.75h-9.5c-.414 0-.75.336-.75.75s.336.75.75.75h9.5c.414 0 .75-.336.75-.75zm0-5c0-.414-.336-.75-.75-.75h-9.5c-.414 0-.75.336-.75.75s.336.75.75.75h9.5c.414 0 .75-.336.75-.75z" fill-rule="nonzero"></path></svg></button> </nav></div> <body class="h-screen bg-gradient-to-t from-light to-grey dark:bg-black"><br> <div class="p-4 xl:flex border-2 m-4 text-center bg-gradient-to-t from-light_pink to-light dark:from-purp dark:to-dark border-4 border-black rounded-3xl " data-svelte-h="svelte-7je74k"><h1 class="lg:text-9xl text-3xl text-transparent font-bold bg-gradient-to-l from-dark to-purp dark:from-light_pink to-purp dark:to-dark_pink bg-clip-text svelte-1v4e87d">About us</h1></div> <div class="p-4 xl:flex border-2 m-4 text-center bg-gradient-to-t from-light_pink to-light dark:from-purp dark:to-dark border-4 border-black rounded-3xl grid grid-rows-2 m-4 md:m-12 xl:m-24" data-svelte-h="svelte-fwapit"><div class="xl:flex-1 dark:text-light_pink"><p>your premier source for drag entertainment in rural Nova Scotia. <br class="hidden sm:block"> We are owned and operated by two trans, non-binary, drag performers, <br class="hidden sm:block "><a class="text-purp bg-light_pink" href="/team/Queera">Queera Bang</a> and <a class="text-purp bg-light_pink" href="/team/Diana">Diana B. Tease.</a> <br>We’re passionate about bringing the art of drag to audiences across the province.
-            <br> <br>
-            At Glitter &amp; Grit, we produce a range of drag events, including drag shows, karaoke, trivia, and bachelorette parties. Whether you’re a seasoned drag fan or a curious newcomer, our events are sure to entertain and inspire. Our performers are some of the best in the business, bringing their unique styles and personalities to every show.</p> <img class="sm:hidden " src="src/images/image4.png" alt=""></div> <div class="xl:flex-1 dark:text-light_pink"><p>Our target audience is queer folks from across Nova Scotia who are interested in drag. We know that it can be tough to find quality drag events in rural areas, which is why we’re committed to bringing the best of the best to our community. We believe that everyone deserves to experience the joy and excitement of drag, no matter where they live or what their background is.
-   <br> <br>
-   If you’re looking for a truly unforgettable drag experience, look no further than Glitter &amp; Grit. We’re dedicated to making every event a night to remember, with top-notch performances, lively music, and a welcoming atmosphere that celebrates diversity and inclusivity.
-   <br> <br>
-   So why not join us for our next show or book our business for your next queer event? We promise you won’t be disappointed. Let Glitter &amp; Grit bring a little sparkle and sass to your life.</p></div></div> <div class="hidden md:block p-4 ml-24 mr-24" data-svelte-h="svelte-1ddel2t"><img class="" src="src/images/image4.png" alt=""></div> <div class="pt-6" data-svelte-h="svelte-q4dc70"><p class="bg-light_pink dark:purp dark:text-light_pink">this website was created by Oliver Lund of Tech that Connect</p></div> </body> 
-			
-			<script>
-				{
-					__sveltekit_di1var = {
-						base: new URL(".", location).pathname.slice(0, -1),
-						env: {}
-					};
-
-					const element = document.currentScript.parentElement;
-
-					const data = [null,null];
-
-					Promise.all([
-						import("./_app/immutable/entry/start.f68c507b.js"),
-						import("./_app/immutable/entry/app.57ac7f54.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 3],
-							data,
-							form: null,
-							error: null
-						});
-					});
-				}
-			</script>
-		</div>
-	</body>
-</html>
+  z"></path></svg></div> </div>`;
+});
+const menu_svelte_svelte_type_style_lang = "";
+const css$1 = {
+  code: ".menu.svelte-1y64ie6{grid-column-start:3}.item.svelte-1y64ie6:hover{border-radius:36px;box-shadow:6px 6px 12px #b49faa,\r\n             -6px -6px 12px #ffffff}.item.svelte-1y64ie6:active{border-radius:36px;box-shadow:-6px -6px 12px #b49faa,\r\n             6px 6px 12px #ffffff}@media only screen and (max-width: 768px){.menu.svelte-1y64ie6{grid-column-start:1;grid-column-end:3}}",
+  map: null
+};
+const Menu = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  $$result.css.add(css$1);
+  return `<div id="menu" class="menu hidden md:flex place-items-start items-start w-auto svelte-1y64ie6"><div class="p-3 mt-1 md:inline-block mr-4 dark:text-light_pink"><button class="p-3 item hover:bg-gradient-to-l hover:from-light_pink hover:to-dark_pink hover:dark:from-purp hover:dark:to-dark svelte-1y64ie6" data-svelte-h="svelte-j311hs">About</button> ${``}</div> <a href="/service" class="item block p-3 mt-4 md:inline-block dark:text-light_pink mr-4 mr-4 hover:bg-gradient-to-l hover:from-light_pink hover:to-dark_pink hover:dark:from-purp hover:dark:to-dark svelte-1y64ie6" data-svelte-h="svelte-1ebzuea">Services</a> <a href="/contact" class="item block p-3 mt-4 md:inline-block mr-4 dark:text-light_pink mr-4 hover:bg-gradient-to-l hover:from-light_pink hover:to-dark_pink hover:dark:from-purp hover:dark:to-dark svelte-1y64ie6" data-svelte-h="svelte-uma1bp">Contact</a> <a href="/events" class="item block p-3 mt-4 md:inline-block mr-4 dark:text-light_pink mr-4 hover:bg-gradient-to-l hover:from-light_pink hover:to-dark_pink hover:dark:from-purp hover:dark:to-dark svelte-1y64ie6" data-svelte-h="svelte-oynrb7">Events</a> </div>`;
+});
+const _layout_svelte_svelte_type_style_lang = "";
+const css = {
+  code: ".navbar.svelte-1f3k8v2{position:sticky;top:0px;display:grid;grid-template-columns:2em auto}.logoBox.svelte-1f3k8v2{grid-column-start:1;grid-column-end:2;text-align:left;justify-content:left}.menu.svelte-1f3k8v2{grid-column-start:2}.item.svelte-1f3k8v2{text-align:center}.item.svelte-1f3k8v2:hover{border-radius:36px;box-shadow:6px 6px 12px #b49faa,\r\n             -6px -6px 12px #ffffff}.item.svelte-1f3k8v2:active{border-radius:36px;box-shadow:-6px -6px 12px #b49faa,\r\n             6px 6px 12px #ffffff}@media only screen and (max-width: 768px){.navbar.svelte-1f3k8v2{grid-template-columns:25% auto}.menu.svelte-1f3k8v2{grid-column-start:1;grid-column-end:3}}",
+  map: null
+};
+const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  $$result.css.add(css);
+  return `<div class=""><nav class="navbar dark:bg-purp bg-light_pink pb-0 md:pb-2 svelte-1f3k8v2"><div class="logoBox svelte-1f3k8v2"><a href="/" class="bg-light_pink">${validate_component(Logo, "Logo").$$render($$result, {}, {}, {})}</a></div> ${validate_component(Menu, "Menu").$$render($$result, {}, {}, {})} <button class="p-1 md:hidden flex justify-end " data-svelte-h="svelte-jgpix6"><svg width="3em" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m13 16.75c0-.414-.336-.75-.75-.75h-9.5c-.414 0-.75.336-.75.75s.336.75.75.75h9.5c.414 0 .75-.336.75-.75zm2.195-5.992 2.746 2.999c.142.154.342.243.552.243s.41-.088.553-.242l2.757-2.999c.132-.144.197-.326.197-.507 0-.684-.841-1.008-1.303-.508l-2.202 2.397-2.194-2.396c-.46-.503-1.303-.175-1.303.507 0 .18.065.362.197.506zm-2.195.992c0-.414-.336-.75-.75-.75h-9.5c-.414 0-.75.336-.75.75s.336.75.75.75h9.5c.414 0 .75-.336.75-.75zm0-5c0-.414-.336-.75-.75-.75h-9.5c-.414 0-.75.336-.75.75s.336.75.75.75h9.5c.414 0 .75-.336.75-.75z" fill-rule="nonzero"></path></svg></button> ${``}</nav></div> ${slots.default ? slots.default({}) : ``}`;
+});
+export {
+  Layout as default
+};
