@@ -53,7 +53,7 @@
    </div>
 
    <div class="p-4 ml-24 mr-24">
-      <img src="/src/images/image3.png" alt="" class="h-100 w-100">
+      <img src="/images/image3.png" alt="" class="h-100 w-100">
    </div>
 
    <Footthing />

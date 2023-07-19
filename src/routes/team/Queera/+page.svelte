@@ -14,7 +14,7 @@ import Footthing from '$lib/components/footer.svelte'
       <h1 class="text-4xl m-0 dark:text-light_pink p-6 inline">Queera Bang</h1>
    </div>
 <div class="p-12 row-start-2 col-span-3 lg:col-span-1">
-   <img src="/src/images/image1.png" alt="" class="h-100 w-100">
+   <img src="/images/image1.png" alt="" class="h-100 w-100">
    <div class="flex justify-start mt-4">
       
 
