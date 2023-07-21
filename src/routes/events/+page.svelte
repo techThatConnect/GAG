@@ -2,6 +2,10 @@
     import Footthing from '$lib/components/footer.svelte'
 </script>
 
+<svelte:head>
+	<script src='https://widgets.sociablekit.com/eventbrite-events/widget.js' async defer></script>
+</svelte:head>
+
 <body class="h-screen bg-gradient-to-t from-light to-grey dark:bg-black">
    
 <br>
@@ -18,7 +22,7 @@
  
    <br>
 
-   <div class='sk-eventbrite-event' data-embed-id='164050'></div><script src='https://widgets.sociablekit.com/eventbrite-events/widget.js' async defer></script>
+   <div class='sk-eventbrite-event' data-embed-id='164050'></div>
 
    </div>
 
