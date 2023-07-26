@@ -1,5 +1,11 @@
 export const actions {
  default: async ( { request})
-const data = await request.formdata
+const dataFrom = await request.formdata
   
+}
+
+export function load () {
+return{
+export dataFrom
+}
 }
