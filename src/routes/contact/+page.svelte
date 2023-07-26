@@ -18,7 +18,7 @@
     
     <div class="lg:flex-1 dark:text-light_pink">
       send us an email
-      <form name="email" netlify-honeypot="bot-field" data-netlify="true">
+      <form name="email" netlify-honeypot="bot-field" netlify>
         <div class="flex" >
          <label for="name" class="flex80">
             Name
