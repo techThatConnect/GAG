@@ -18,7 +18,7 @@
     
     <div class="lg:flex-1 dark:text-light_pink">
       send us an email
-      <form method="post" action="/email">
+      <form name="email" method="POST" netlify-honeypot="bot-field" data-netlify="true">
         <div class="flex" >
          <label for="name" class="flex80">
             Name
@@ -33,7 +33,7 @@
         <br>
          <label for="email"> 
             message
-            <textarea class="border-2 hover:border-4 focus:border-4 border-black" name="" id="" cols="80" rows="10"></textarea>
+            <textarea class="border-2 hover:border-4 focus:border-4 border-black" name="message" id="message" cols="80" rows="10"></textarea>
          </label>
          
          </form>
