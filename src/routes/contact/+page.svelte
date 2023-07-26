@@ -3,6 +3,7 @@
    import orange from '$lib/images/logo-orange.png'
    import insta from '$lib/images/instagram.png'
 
+export const prerender = true
 </script>
 <body class="h-screen bg-gradient-to-t from-light to-grey dark:bg-black">
    
