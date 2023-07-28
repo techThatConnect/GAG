@@ -1,11 +1,3 @@
-export const actions {
- default: async ( { request})
-const dataFrom = await request.formdata
-  
-}
+export const prerender = true
 
-export function load () {
-return{
-export dataFrom
-}
-}
+
