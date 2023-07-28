@@ -3,7 +3,7 @@
    import orange from '$lib/images/logo-orange.png'
    import insta from '$lib/images/instagram.png'
 
-export const prerender = true
+
 </script>
 <body class="h-screen bg-gradient-to-t from-light to-grey dark:bg-black">
    
@@ -19,7 +19,7 @@ export const prerender = true
     
     <div class="lg:flex-1 dark:text-light_pink">
       send us an email
-      <form name="email" method="post" netlify-honeypot="bot-field" netlify>
+      <form name="email" method="POST" netlify-honeypot="bot-field" netlify>
         <div class="flex" >
          <label for="name" class="flex80">
             Name
