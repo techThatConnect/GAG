@@ -20,7 +20,8 @@
     <div class="lg:flex-1 dark:text-light_pink">
       send us an email
       <form name="email" method="POST" netlify-honeypot="bot-field" netlify>
-        <div class="flex" >
+       <input type="hidden" name="form-name" value="email" /> 
+<div class="flex" >
          <label for="name" class="flex80">
             Name
             <input class="inline border-2 hover:border-4 focus:border-4 border-black" type="text" name="name" id="name">
