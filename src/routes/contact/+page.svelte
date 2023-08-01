@@ -3,8 +3,6 @@
    import orange from '$lib/images/logo-orange.png'
    import insta from '$lib/images/instagram.png'
 
-const handleSubmit = (e) => { 		e.preventDefault() 		let myForm = document.getElementById('myform'); 		let formData = new FormData(myForm); 		fetch('/', { 			method: 'POST', 			headers: { "Content-Type": "application/x-www-form-urlencoded" }, 			body: new URLSearchParams(formData).toString() 		}).then(() => console.log('Form successfully submitted')).catch((error) => 			alert(error)) 	}
-
 </script>
 <body class="h-screen bg-gradient-to-t from-light to-grey dark:bg-black">
    
@@ -20,7 +18,7 @@ const handleSubmit = (e) => { 		e.preventDefault() 		let myForm = document.getEl
     
     <div class="lg:flex-1 dark:text-light_pink">
       send us an email
-      <form name="email" on:submit{handleSubmit} method="POST" netlify-honeypot="bot-field" netlify>
+      <form name="email" method="POST" netlify-honeypot="bot-field" netlify>
        <input type="hidden" name="form-name" value="email" /> 
 <div class="flex" >
          <label for="name" class="flex80">
