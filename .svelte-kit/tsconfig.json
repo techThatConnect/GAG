@@ -1,6 +1,12 @@
 {
 	"compilerOptions": {
 		"paths": {
+			"$img": [
+				"../src/lib/images"
+			],
+			"$img/*": [
+				"../src/lib/images/*"
+			],
 			"$lib": [
 				"../src/lib"
 			],

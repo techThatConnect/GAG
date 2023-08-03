@@ -1,11 +1,11 @@
 <script>
-   import Footthing from '../../../lib/components/footer.svelte'
+   import Footthing from './footer.svelte'
    import picture from '$lib/images/image2.jpg'
    import insta from '$lib/images/instagram.png'
 </script>
 
 
-<body class="h-full bg-gradient-to-t from-light to-grey dark:bg-black">
+<body class="h-full bg-gradient-to-t from-light via-grey to-light dark:bg-black">
 <br>
 <div class="card  bg-gradient-to-t from-light_pink to-light dark:from-purp border-4 border-black rounded-3xl grid grid-rows-2 ml-2 mr-2 sm:ml-12 sm:mr-12  lg:ml-24 lg:mr-24">
    <div class="col-span-3 bg-light_pink dark:bg-purp rounded-t-3xl flex justify-around">
@@ -33,7 +33,7 @@
 
 </div>
 </div>
-<Footthing />
+
 </body>
 
 <style lang="postcss">

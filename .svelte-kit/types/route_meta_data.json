@@ -14,11 +14,5 @@
 	],
 	"/service": [
 		"src/routes/+layout.js"
-	],
-	"/team/Diana": [
-		"src/routes/+layout.js"
-	],
-	"/team/Queera": [
-		"src/routes/+layout.js"
 	]
 }
