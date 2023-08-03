@@ -5,8 +5,6 @@
   import Menu from '../lib/components/menu.svelte'
    
   let test = false
-  let test2 = false;
-  let test3 = false;
   </script>
   
 
@@ -17,7 +15,7 @@
 
 <div class=" ">
   <nav class="navbar grid lg:flex lg:justify-between dark:bg-purp bg-light_pink pb-0 md:pb-2" >
-    <div class="logoBox  border-black" >
+    <div class="logoBox " >
       <a  href="/" class="bg-light_pink"> <Logo /> </a>
    <div class="hidden md:block"><Text/></div>
     </div>
@@ -33,7 +31,7 @@
 
 
           {#if test}
-          <div id="menu" class="flex justify-center menu md:hidden items-center w-auto pb-12">
+          <div id="menu" class="flex justify-center menu md:hidden items-center w-auto pb-12 mx-auto">
        
 
 
@@ -76,7 +74,8 @@
   position: sticky;
   top:0px;
  
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 5em auto 5em;
+  grid-template-rows: 5em auto;
 }
 
 
@@ -92,7 +91,7 @@
 .textbox {
   grid-column-start: 2;
   grid-column-end: 3;
-
+grid-row-end: 2;
   text-align: right;
   justify-content: right;
 }
@@ -100,13 +99,18 @@
 .buttonbox {
   grid-column-start: 3;
   grid-column-end: 4;
-
+  grid-row-end: 2;
   text-align: right;
   justify-content: right;
 }
 
 .menu {
+
   grid-column-start: 2;
+
+  grid-row-start: 2;
+  display: block;
+
 }
 
 .item {
@@ -138,11 +142,7 @@ box-shadow:  -6px -6px 12px #b49faa,
 
   grid-template-columns: 25% auto;
 }
-  .menu {
-  grid-column-start: 1;
-  grid-column-end: 3;
 
-}
 
 
 }

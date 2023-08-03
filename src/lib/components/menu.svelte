@@ -1,6 +1,5 @@
 <script>
-  let test2 = false;
-  let test3 = false;
+
 
 
 </script>
@@ -12,7 +11,6 @@
   <a  href="/about" class="item block p-3 mt-4 md:inline-block dark:text-light_pink  mr-4  mr-4 hover:bg-gradient-to-l hover:from-light_pink hover:to-dark_pink hover:dark:from-purp hover:dark:to-dark">
     About
    </a>
-
 
       <a  href="/service" class="item block p-3 mt-4 md:inline-block dark:text-light_pink  mr-4  mr-4 hover:bg-gradient-to-l hover:from-light_pink hover:to-dark_pink hover:dark:from-purp hover:dark:to-dark">
        Services

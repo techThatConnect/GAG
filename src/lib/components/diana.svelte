@@ -1,5 +1,5 @@
 <script>
-   import Footthing from './footer.svelte'
+
    import picture from '$lib/images/image2.jpg'
    import insta from '$lib/images/instagram.png'
 </script>
