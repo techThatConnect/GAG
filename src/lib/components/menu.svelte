@@ -4,21 +4,22 @@
 
 </script>
 
-<div id="menu" class="menu hidden md:flex  place-items-start items-start w-auto">
+<div id="menu" class="menu hidden md:flex mt-6 place-items-start items-start w-auto">
            
     
 
-  <a  href="/about" class="item block p-3 mt-4 md:inline-block dark:text-light_pink  mr-4  mr-4 hover:bg-gradient-to-l hover:from-light_pink hover:to-dark_pink hover:dark:from-purp hover:dark:to-dark">
+  <a  href="/about"  class="block p-3 md:inline-block rounded-3xl mr-4 hover:bg-dark_pink hover:dark:bg-purp">
     About
    </a>
 
-      <a  href="/service" class="item block p-3 mt-4 md:inline-block dark:text-light_pink  mr-4  mr-4 hover:bg-gradient-to-l hover:from-light_pink hover:to-dark_pink hover:dark:from-purp hover:dark:to-dark">
+
+      <a  href="/service"  class="block p-3 md:inline-block rounded-3xl mr-4 hover:bg-dark_pink hover:dark:bg-purp">
        Services
       </a>
-      <a href="/contact" class="item block p-3 mt-4 md:inline-block mr-4 dark:text-light_pink  mr-4 hover:bg-gradient-to-l hover:from-light_pink hover:to-dark_pink hover:dark:from-purp hover:dark:to-dark">
+      <a href="/contact"  class="block p-3 md:inline-block rounded-3xl mr-4 hover:bg-dark_pink hover:dark:bg-purp">
         Contact
       </a>
-      <a href="/events" class="item block p-3 mt-4 md:inline-block mr-4 dark:text-light_pink    mr-4 hover:bg-gradient-to-l hover:from-light_pink hover:to-dark_pink hover:dark:from-purp hover:dark:to-dark">
+      <a href="/events"   class="block p-3 md:inline-block rounded-3xl mr-4 hover:bg-dark_pink hover:dark:bg-purp">
        Events
       </a>
       
