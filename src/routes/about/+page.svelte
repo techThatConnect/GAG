@@ -8,13 +8,13 @@ import Queera from '$lib/components/queera.svelte';
 <body class=" bg-gradient-to-b from-black to-grey dark:bg-black">
    
 <br>
-   <div class="p-4 xl:flex border-2 m-4 text-center  bg-gradient-to-t from-light_pink to-light dark:from-purp dark:to-dark  border-4 border-black">
-   <h1 class="lg:text-9xl text-3xl  text-transparent font-bold bg-gradient-to-l from-dark to-purp dark:from-light_pink to-purp  dark:to-dark_pink bg-clip-text">About us</h1>
+   <div class="p-4   m-4 text-center ">
+   <h1 class="glow lg:text-9xl text-3xl text-center font-bold ">About us</h1>
    
 </div>
 
       
-<div class="p-4 xl:flex border-2 m-4 text-center  bg-gradient-to-t from-light_pink to-light dark:from-purp dark:to-dark  border-4 border-black  grid grid-rows-2 m-4 md:m-12 xl:m-24">
+<div class="p-4 xl:flex text-light m-4 text-center   grid grid-rows-2 m-4 md:m-12 xl:m-24">
      
    <div class="xl:flex-1 dark:text-light_pink">
      
@@ -63,11 +63,11 @@ import Queera from '$lib/components/queera.svelte';
   
 
    }
+   .glow {
+      text-shadow: 0 0 0.1em #fde0ef,
+      0 0 0.2em #fde0ef;
+   }
 
-h1 {
-   color: transparent;
-   margin: 0px;
-}
  
       </style>
    

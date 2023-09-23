@@ -5,10 +5,10 @@ import Footthing from '../lib/components/footer.svelte'
 
 <body >
    <br>
-   <div class="p-4  border-2 m-4 text-center  bg-gradient-to-t from-light_pink to-light dark:from-purp dark:to-dark  border-4 border-black ">
-      <h1 class="lg:text-9xl text-3xl text-center text-transparent font-bold bg-gradient-to-l from-dark to-purp dark:from-light_pink to-purp  dark:to-dark_pink bg-clip-text">Glitter & Grit</h1>
+   <div class="p-4  m-4 text-center  ">
+      <h1 class=" glow lg:text-9xl text-3xl text-center font-bold ">Glitter & Grit</h1>
       <br>
-      <h3>your premier source for drag entertainment in rural Nova Scotia.</h3>
+      <h3 class="text-light_pink">your premier source for drag entertainment in rural Nova Scotia.</h3>
    </div>
 <br>
    <!-- Place <div> tag where you want the feed to appear -->
@@ -32,10 +32,10 @@ import Footthing from '../lib/components/footer.svelte'
   
   
   <style lang="postcss">
-h1 {
-   color: transparent;
-   flex:100%;
-}
+  .glow {
+      text-shadow: 0 0 0.1em #fde0ef,
+      0 0 0.2em #fde0ef;
+   }
 
   body {
    background:black;
