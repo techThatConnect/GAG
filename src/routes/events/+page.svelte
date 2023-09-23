@@ -2,10 +2,14 @@
     import Footthing from '../../lib/components/footer.svelte'
 </script>
 
+<svelte:head>
+	<script src='https://widgets.sociablekit.com/eventbrite-events/widget.js' async defer></script>
+</svelte:head>
+
 <body class="h-screen bg-gradient-to-t from-light to-grey dark:bg-black">
    
 <br>
-   <div class="p-4 xl:flex border-2 m-4 text-center  bg-gradient-to-t from-light_pink to-light dark:from-purp dark:to-dark border-4 border-black rounded-3xl ">
+   <div class="p-4 xl:flex border-2 m-4 text-center  bg-gradient-to-t from-light_pink to-light dark:from-purp dark:to-dark border-4 border-black ">
       <h1 class="lg:text-9xl text-3xl text-center text-transparent font-bold bg-gradient-to-l from-dark to-purp  dark:from-light_pink dark:to-dark_pink bg-clip-text">Our Events</h1>
       </div>
 
@@ -18,7 +22,7 @@
  
    <br>
 
-   <div class='sk-eventbrite-event' data-embed-id='164050'></div><script src='https://widgets.sociablekit.com/eventbrite-events/widget.js' async defer></script>
+   <div class='sk-eventbrite-event' data-embed-id='164050'></div>
 
    </div>
 

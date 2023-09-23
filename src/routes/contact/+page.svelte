@@ -7,7 +7,7 @@
 <body class="h-screen bg-gradient-to-t from-light to-grey dark:bg-black">
    
     <br>
-       <div class="p-4 xl:flex border-2 m-4 text-center  bg-gradient-to-t from-light_pink to-light dark:from-purp dark:to-dark  border-4 border-black rounded-3xl ">
+       <div class="p-4 xl:flex border-2 m-4 text-center  bg-gradient-to-t from-light_pink to-light dark:from-purp dark:to-dark  border-4 border-black">
        <h1 class="lg:text-9xl text-3xl  text-transparent font-bold bg-gradient-to-l from-dark to-purp dark:from-light_pink dark:to-dark_pink bg-clip-text">Contact</h1>
     </div>
     
@@ -18,8 +18,9 @@
     
     <div class="lg:flex-1 dark:text-light_pink">
       send us an email
-      <form method="post" action="/email">
-        <div class="flex" >
+      <form name="email" method="POST" netlify-honeypot="bot-field" netlify>
+       <input type="hidden" name="form-name" value="email" /> 
+<div class="flex" >
          <label for="name" class="flex80">
             Name
             <input class="inline border-2 hover:border-4 focus:border-4 border-black" type="text" name="name" id="name">
@@ -33,7 +34,7 @@
         <br>
          <label for="email"> 
             message
-            <textarea class="border-2 hover:border-4 focus:border-4 border-black" name="" id="" cols="80" rows="10"></textarea>
+            <textarea class="border-2 hover:border-4 focus:border-4 border-black" name="message" id="message" cols="80" rows="10"></textarea>
          </label>
          
          </form>
