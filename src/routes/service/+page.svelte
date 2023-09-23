@@ -4,14 +4,14 @@
 
 </script>
 
-<body class="h-screen bg-gradient-to-t from-light to-grey dark:bg-black">
+<body class="h-screen bg-gradient-to-b from-grey to-black dark:bg-black">
    
 <br>
-   <div class="p-4 xl:flex border-2 m-4 text-center  bg-gradient-to-t from-light_pink to-light dark:from-purp dark:to-dark border-4 border-black rounded-3xl ">
+   <div class="p-4 xl:flex border-2 m-4 text-center  bg-gradient-to-t from-light_pink to-light dark:from-purp dark:to-dark border-4 border-black ">
       <h1 class="lg:text-9xl text-3xl text-center text-transparent font-bold bg-gradient-to-l from-dark dark:from-light_pink to-purp  dark:to-dark_pink bg-clip-text">Our Services</h1>
       </div>
 
-<div class="p-8 lg:flex  place-items-start border-2 rounded m-4 bg-gradient-to-t from-light_pink to-light dark:to-dark dark:from-purp border-4 border-black rounded-3xl ">
+<div class="p-8 lg:flex  place-items-start border-2 rounded m-4 bg-gradient-to-t from-light_pink to-light dark:to-dark dark:from-purp border-4 border-black  ">
 
    <div class="md:flex-1 dark:text-light_pink">
 <p > At <a href="/" class="bg-light_pink dark:bg-purp">Glitter & Grit</a>, we’re proud to offer a wide range of drag and queer entertainment services that are perfect for any occasion. Whether you’re planning a wild bachelorette party, a classy wedding reception, or a fun night out with friends, we’ve got you covered.

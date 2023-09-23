@@ -1,18 +1,9 @@
 {
-	"/": [
-		"src/routes/+layout.js",
-		"src/routes/+layout.js"
-	],
-	"/about": [
-		"src/routes/+layout.js"
-	],
+	"/": [],
+	"/about": [],
 	"/contact": [
-		"src/routes/+layout.js"
+		"src/routes/contact/+page.server.js"
 	],
-	"/events": [
-		"src/routes/+layout.js"
-	],
-	"/service": [
-		"src/routes/+layout.js"
-	]
+	"/events": [],
+	"/service": []
 }

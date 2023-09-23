@@ -12,7 +12,7 @@
 }
   }
 
-  window.onresize = check
+  
   </script>
   
 
@@ -22,7 +22,7 @@
   
 
 
-  <nav class="navbar grid md:flex justify-between dark:bg-purp bg-light_pink pb-0 md:pb-2" >
+  <nav class="navbar grid md:flex justify-between dark:bg-purp bg-light_pink pb-0 lg:pb-2" >
     <div class="logoBox " >
       <a  href="/" class="bg-light_pink "> <Logo /> </a>
    <div class="hidden md:block"><Text/></div>

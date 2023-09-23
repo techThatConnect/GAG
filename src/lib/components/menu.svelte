@@ -19,7 +19,7 @@
       <a href="/contact"  class="block p-3 md:inline-block rounded-3xl mr-4 hover:bg-dark_pink hover:dark:bg-purp">
         Contact
       </a>
-      <a href="/events"   class="block p-3 md:inline-block rounded-3xl mr-4 hover:bg-dark_pink hover:dark:bg-purp">
+      <a href="/events"   class="block p-3 md:inline-block rounded-3xl  mr-4 hover:bg-dark_pink hover:dark:bg-purp">
        Events
       </a>
       

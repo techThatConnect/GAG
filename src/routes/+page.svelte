@@ -38,7 +38,7 @@ h1 {
 }
 
   body {
-   background-image:linear-gradient(to top, rgba(38, 21, 47, 1), rgba(38, 21, 47, 0.25)), url('$lib/images/test.jpg');
+   background:black;
       background-position: top;
       background-size: cover;
       background-repeat: no-repeat;

@@ -10,10 +10,10 @@ import insta from '$lib/images/instagram.png'
 
 
    
-<body class="h-full bg-gradient-to-t from-light via-grey to-light dark:bg-black">
+<body class="bg-black">
 <br>
-<div class="card bg-gradient-to-t from-light_pink to-light dark:from-purp dark:to-dark border-4 border-black rounded-3xl grid grid-rows-2 ml-2 mr-2 sm:ml-12 sm:mr-12  lg:ml-24 lg:mr-24">
-   <div class="col-span-3 bg-light_pink dark:bg-purp rounded-t-3xl flex justify-around">
+<div class="card bg-gradient-to-t from-light_pink to-light dark:from-purp dark:to-dark border-4 border-black  grid grid-rows-2 ml-2 mr-2 sm:ml-12 sm:mr-12  lg:ml-24 lg:mr-24">
+   <div class="col-span-3 bg-light_pink dark:bg-purp  flex justify-around">
       <h1 class="text-4xl m-0 dark:text-light_pink p-6 inline">Queera Bang</h1>
    </div>
 <div class="p-12 row-start-2 col-span-3 lg:col-span-1">

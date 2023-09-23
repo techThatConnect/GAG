@@ -12,7 +12,7 @@
     </div>
     
           
-    <div class="p-4 lg:flex flex-wrap border-2 m-4 lg:text-center  bg-gradient-to-t from-light_pink to-light dark:from-purp dark:to-dark  border-4 border-black rounded-3xl grid grid-rows-2  xl:m-24">
+    <div class="p-4 lg:flex flex-wrap border-2 m-4 lg:text-center  bg-gradient-to-t from-light_pink to-light dark:from-purp dark:to-dark  border-4 border-black  grid grid-rows-2  xl:m-24">
          
       
     
