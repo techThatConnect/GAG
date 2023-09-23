@@ -35,18 +35,7 @@
         .menu {
   grid-column-start: 3;
 }
- .item:hover {
-  border-radius: 36px;
 
-box-shadow:  6px 6px 12px #b49faa,
-             -6px -6px 12px #ffffff;
- }
- .item:active {
-  border-radius: 36px;
-
-box-shadow:  -6px -6px 12px #b49faa,
-             6px 6px 12px #ffffff;
- }
 
 
 
