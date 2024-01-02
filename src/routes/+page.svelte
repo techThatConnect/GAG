@@ -1,12 +1,13 @@
 <script>
 import Footthing from '../lib/components/footer.svelte'
 
+
 </script>
 
 <body >
    <br>
    <div class="p-4  m-4 text-center  ">
-      <h1 class=" glow lg:text-9xl text-3xl text-center font-bold ">Glitter & Grit</h1>
+      <h1 class=" glow md:text-9xl text-3xl text-center font-bold ">Glitter & Grit</h1>
       <br>
       <h3 class="text-light_pink">your premier source for drag entertainment in rural Nova Scotia.</h3>
    </div>
@@ -33,8 +34,18 @@ import Footthing from '../lib/components/footer.svelte'
   
   <style lang="postcss">
   .glow {
-      text-shadow: 0 0 0.1em #fde0ef,
-      0 0 0.2em #fde0ef;
+      text-shadow: 
+      0 0 0.01em #ffffff,
+      0 0 0.02em #ffffff,
+      0 0 0.03em #ffffff,
+      0 0 0.04em #ffffff,
+      0 0 0.05em #ffffff,
+      0 0 0.06em #ffffff,
+      0 0 0.1em #f4b6e7,
+      0 0 0.2em #f4b6e7,
+      0 0 0.3em #f4b6e7,
+      0 0 0.4em #f4b6e7;
+
    }
 
   body {

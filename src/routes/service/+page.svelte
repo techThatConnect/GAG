@@ -4,23 +4,24 @@
 
 </script>
 
-<body class="h-screen bg-gradient-to-b from-grey to-black dark:bg-black">
+<body class=" bg-black">
    
 <br>
-   <div class="p-4 xl:flex border-2 m-4 text-center  bg-gradient-to-t from-light_pink to-light dark:from-purp dark:to-dark border-4 border-black ">
-      <h1 class="lg:text-9xl text-3xl text-center text-transparent font-bold bg-gradient-to-l from-dark dark:from-light_pink to-purp  dark:to-dark_pink bg-clip-text">Our Services</h1>
-      </div>
+<div class="p-4   m-4 text-center ">
+   <h1 class="glow md:text-9xl text-3xl text-center font-bold ">Our Services</h1>
+   
+</div>
 
-<div class="p-8 lg:flex  place-items-start border-2 rounded m-4 bg-gradient-to-t from-light_pink to-light dark:to-dark dark:from-purp border-4 border-black  ">
+<div class="p-8 lg:flex text-light place-items-start  rounded m-4  ">
 
    <div class="md:flex-1 dark:text-light_pink">
-<p > At <a href="/" class="bg-light_pink dark:bg-purp">Glitter & Grit</a>, we’re proud to offer a wide range of drag and queer entertainment services that are perfect for any occasion. Whether you’re planning a wild bachelorette party, a classy wedding reception, or a fun night out with friends, we’ve got you covered.
+<p > At Glitter & Grit, we’re proud to offer a wide range of drag and queer entertainment services that are perfect for any occasion. Whether you’re planning a wild bachelorette party, a classy wedding reception, or a fun night out with friends, we’ve got you covered.
    
     But don’t let this list limit you! We’re flexible and able to bring drag to almost any sort of event imaginable. From birthday parties to corporate events, to tours, to large-scale Pride festivals, we’re here to help you create a one-of-a-kind experience that your guests will never forget.
    </p>
    <br>
    <p>
-      <a class="bg-light_pink dark:bg-purp" href="mailto:glitterandgrit.events@gmail.com">Email</a>  us for pricing and more information. We can’t wait to bring the magic of drag to your next event!
+      <a class="m-2 p-2 bg-dark_pink text-black dark:bg-purp" href="mailto:glitterandgrit.events@gmail.com">Email</a>  us for pricing and more information. We can’t wait to bring the magic of drag to your next event!
       </p>
 <br>
    </div>
@@ -66,10 +67,20 @@
          list-style-type:disc;
       }
 
-      h1 {
-         color: transparent;
-      }
+      .glow {
+      text-shadow: 
+      0 0 0.01em #ffffff,
+      0 0 0.02em #ffffff,
+      0 0 0.03em #ffffff,
+      0 0 0.04em #ffffff,
+      0 0 0.05em #ffffff,
+      0 0 0.06em #ffffff,
+      0 0 0.1em #f4b6e7,
+      0 0 0.2em #f4b6e7,
+      0 0 0.3em #f4b6e7,
+      0 0 0.4em #f4b6e7;
 
+   }
 
    </style>
 

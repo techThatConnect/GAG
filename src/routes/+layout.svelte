@@ -22,7 +22,7 @@
   
 
 
-  <nav class="navbar grid md:flex justify-between dark:bg-purp bg-light_pink pb-0 lg:pb-2" >
+  <nav class="navbar grid md:flex justify-between dark:bg-purp bg-dark_pink pb-0 md:pb-2" >
     <div class="logoBox " >
       <a  href="/" class="bg-light_pink "> <Logo /> </a>
    <div class="hidden md:block"><Text/></div>
@@ -42,16 +42,16 @@
        
 
 
-            <a  on:click={() =>  (test= !test)} on:keydown={() => (test= !test)}  href="/about" class="block p-3 md:inline-block rounded-3xl mr-4 hover:bg-dark_pink hover:dark:bg-purp">
+            <a  on:click={() =>  (test= !test)} on:keydown={() => (test= !test)}  href="/about" class="block p-3 md:inline-block rounded-3xl mr-4 hover:bg-light_pink hover:dark:bg-purp">
               About
              </a>
-              <a  on:click={() =>  (test= !test)} on:keydown={() => (test= !test)}  href="/service"  class="block p-3  md:inline-block rounded-3xl mr-4 hover:bg-dark_pink hover:dark:bg-purp">
+              <a  on:click={() =>  (test= !test)} on:keydown={() => (test= !test)}  href="/service"  class="block p-3  md:inline-block rounded-3xl mr-4 hover:bg-light_pink hover:dark:bg-purp">
                Services
               </a>
-              <a on:click={() =>  (test= !test)} on:keydown={() => (test= !test)}  href="/contact"  class="block p-3  md:inline-block rounded-3xl mr-4 hover:bg-dark_pink hover:dark:bg-purp">
+              <a on:click={() =>  (test= !test)} on:keydown={() => (test= !test)}  href="/contact"  class="block p-3  md:inline-block rounded-3xl mr-4 hover:bg-light_pink hover:dark:bg-purp">
                 Contact
               </a>
-              <a on:click={() =>  (test= !test)} on:keydown={() => (test= !test)}  href="/events"  class="block p-3  md:inline-block rounded-3xl mr-4 hover:bg-dark_pink hover:dark:bg-purp">
+              <a on:click={() =>  (test= !test)} on:keydown={() => (test= !test)}  href="/events"  class="block p-3  md:inline-block rounded-3xl mr-4 hover:bg-light_pink hover:dark:bg-purp">
                Events
               </a>
              
@@ -88,7 +88,7 @@
   top:0px;
   gap:10px;
   grid-template-columns: 5em 1fr 1fr;
-  grid-template-rows: 5em auto;
+  grid-template-rows: auto auto;
 }
 
 

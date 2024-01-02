@@ -4,44 +4,18 @@
    import insta from '$lib/images/instagram.png'
 
 </script>
-<body class="h-screen bg-gradient-to-t from-light to-grey dark:bg-black">
+<body class="min-h-full bg-black">
    
     <br>
-       <div class="p-4 xl:flex border-2 m-4 text-center  bg-gradient-to-t from-light_pink to-light dark:from-purp dark:to-dark  border-4 border-black">
-       <h1 class="lg:text-9xl text-3xl  text-transparent font-bold bg-gradient-to-l from-dark to-purp dark:from-light_pink dark:to-dark_pink bg-clip-text">Contact</h1>
-    </div>
+    <div class="p-4 m-4 text-center ">
+      <h1 class="glow md:text-9xl text-3xl text-center font-bold ">Contact</h1>
+      
+   </div>
     
           
-    <div class="p-4 lg:flex flex-wrap border-2 m-4 lg:text-center  bg-gradient-to-t from-light_pink to-light dark:from-purp dark:to-dark  border-4 border-black  grid grid-rows-2  xl:m-24">
+    <div class="p-4 md:flex flex-wrap m-4 lg:text-center text-light  md:m-24">
          
-      
-    
-    <div class="lg:flex-1 dark:text-light_pink">
-      send us an email
-      <form name="email" method="POST" netlify-honeypot="bot-field" netlify>
-       <input type="hidden" name="form-name" value="email" /> 
-<div class="flex" >
-         <label for="name" class="flex80">
-            Name
-            <input class="inline border-2 hover:border-4 focus:border-4 border-black" type="text" name="name" id="name">
-            
-         </label>
-      
-        
-         <button class="item inline bg-gradient-to-l from-light_pink to-dark_pink dark:from-purp dark:to-dark  p-2 ml-2 rounded-3xl" type="submit">send</button>
-        
-        </div>
-        <br>
-         <label for="email"> 
-            message
-            <textarea class="border-2 hover:border-4 focus:border-4 border-black" name="message" id="message" cols="80" rows="10"></textarea>
-         </label>
-         
-         </form>
-   
-    </div>
-
-    <div class="lg:flex-1 dark:text-light_pink">
+      <div class="md:flex-1 md:mr-16 flex-auto dark:text-light_pink">
       You can find us on the web in these other locations
       <br>
       <div class="flex flex-wrap justify-center">
@@ -61,6 +35,31 @@
          
  
     </div>
+    
+    <div class="md:flex-1 dark:text-light_pink">
+      send us an email
+      <form name="email" method="POST" netlify-honeypot="bot-field" netlify>
+       <input type="hidden" name="form-name" value="email" /> 
+<div class="flex" >
+         <label for="name" class="flex80">
+            Name
+            <input class="inline border-2 hover:border-4 focus:border-4 border-black" type="text" name="name" id="name">
+            
+         </label>
+        
+        </div>
+        <br>
+         <label for="email"> 
+            message
+            <textarea class="border-2 hover:border-4 focus:border-4 border-black" name="message" id="email" cols="80" rows="10"></textarea>
+         </label>
+         <button class="bg-dark_pink hover:bg-light_pink active:bg-dark-pink  hover:dark:bg-purp p-2 ml-2 rounded-3xl" type="submit">send</button>
+         
+         </form>
+   
+    </div>
+
+    
 
     </div>
     
@@ -70,22 +69,23 @@
     
       
        <style lang="postcss">
-         .flex80 {
-            flex:80%
-         }
+           .glow {
+      text-shadow: 
+      0 0 0.01em #ffffff,
+      0 0 0.02em #ffffff,
+      0 0 0.03em #ffffff,
+      0 0 0.04em #ffffff,
+      0 0 0.05em #ffffff,
+      0 0 0.06em #ffffff,
+      0 0 0.1em #f4b6e7,
+      0 0 0.2em #f4b6e7,
+      0 0 0.3em #f4b6e7,
+      0 0 0.4em #f4b6e7;
 
-.item:hover {
-  border-radius: 36px;
+   }
+      
 
-box-shadow:  6px 6px 12px #b49faa,
-             -6px -6px 12px #ffffff;
- }
- .item:active {
-  border-radius: 36px;
 
-box-shadow:  -6px -6px 12px #b49faa,
-             6px 6px 12px #ffffff;
- }
 
 textarea {
    flex: 100%;
@@ -104,10 +104,7 @@ input {
     width: 100%;
 }
     
-    h1 {
-       color: transparent;
-       margin: 0px;
-    }
+ 
      
           </style>
        

@@ -1,9 +1,14 @@
 {
 	"/": [],
 	"/about": [],
+	"/calender": [
+		"src/routes/calender/+server.js"
+	],
 	"/contact": [
 		"src/routes/contact/+page.server.js"
 	],
-	"/events": [],
+	"/events": [
+		"src/routes/events/+page.server.js"
+	],
 	"/service": []
 }

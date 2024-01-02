@@ -8,18 +8,18 @@
            
     
 
-  <a  href="/about"  class="block p-3 md:inline-block rounded-3xl mr-4 hover:bg-dark_pink hover:dark:bg-purp">
+  <a  href="/about"  class="block p-3 md:inline-block rounded-3xl mr-4 hover:bg-light_pink hover:dark:bg-purp">
     About
    </a>
 
 
-      <a  href="/service"  class="block p-3 md:inline-block rounded-3xl mr-4 hover:bg-dark_pink hover:dark:bg-purp">
+      <a  href="/service"  class="block p-3 md:inline-block rounded-3xl mr-4 hover:bg-light_pink  hover:dark:bg-purp">
        Services
       </a>
-      <a href="/contact"  class="block p-3 md:inline-block rounded-3xl mr-4 hover:bg-dark_pink hover:dark:bg-purp">
+      <a href="/contact"  class="block p-3 md:inline-block rounded-3xl mr-4 hover:bg-light_pink  hover:dark:bg-purp">
         Contact
       </a>
-      <a href="/events"   class="block p-3 md:inline-block rounded-3xl  mr-4 hover:bg-dark_pink hover:dark:bg-purp">
+      <a href="/events"   class="block p-3 md:inline-block rounded-3xl  mr-4 hover:bg-light_pink  hover:dark:bg-purp">
        Events
       </a>
       
