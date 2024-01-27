@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .max-fifty{
+        max-width: 50%;
+    }
+
+    .max-fifty-h{
+        min-height: 50vh;
+    }
+
+    .left-12-half {
+        left: 12.5vw;
+    }
+}
+
 body {
     background-color: black;
 }
