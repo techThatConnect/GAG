@@ -36,15 +36,22 @@
  
     </div>
     
-    <div class="md:flex-1 dark:text-light_pink">
+    <div class="md:flex-1  dark:text-light_pink">
       send us an email
-      <form name="email" method="POST" netlify-honeypot="bot-field" netlify>
+      <form class="text-left" name="email" method="POST" netlify-honeypot="bot-field" netlify>
        <input type="hidden" name="form-name" value="email" /> 
-<div class="flex" >
-         <label for="name" class="flex80">
+<div  >
+         <label for="name" class="flex80 text-left">
             Name
-            <input class="inline border-2 hover:border-4 focus:border-4 border-black" type="text" name="name" id="name">
+            <input class="block border-2 hover:border-4 focus:border-4 border-black" type="text" name="name" id="name">
             
+         </label>
+
+         <br>
+         
+         <label for="youremail">
+            your email
+            <input class="block border-2 hover:border-4 focus:border-4 border-black" type="text" name="youremail" id="youremail">
          </label>
         
         </div>
@@ -53,7 +60,7 @@
             message
             <textarea class="border-2 hover:border-4 focus:border-4 border-black" name="message" id="email" cols="80" rows="10"></textarea>
          </label>
-         <button class="bg-dark_pink hover:bg-light_pink active:bg-dark-pink  hover:dark:bg-purp p-2 ml-2 rounded-3xl" type="submit">send</button>
+         <button class="bg-dark_pink hover:bg-light_pink hover:text-black active:bg-dark-pink  hover:dark:bg-purp p-2 ml-2 rounded-3xl" type="submit">send</button>
          
          </form>
    

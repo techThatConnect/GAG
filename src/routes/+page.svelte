@@ -1,10 +1,13 @@
 <script>
+   
 import Footthing from '../lib/components/footer.svelte'
 
 
 </script>
 
+
 <body >
+  
    <br>
    <div class="p-4  m-4 text-center  ">
       <h1 class=" glow md:text-9xl text-3xl text-center font-bold ">Glitter & Grit</h1>
@@ -12,16 +15,19 @@ import Footthing from '../lib/components/footer.svelte'
       <h3 class="text-light_pink">your premier source for drag entertainment in rural Nova Scotia.</h3>
    </div>
 <br>
-   <!-- Place <div> tag where you want the feed to appear -->
-      <div class="p-6"><div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div><!-- The Javascript can be moved to the end of the html page before the </body> tag --><script type="text/javascript">
-         /* curator-feed-default-feed-layout */
-         (function(){
-         var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
-         i.src="https://cdn.curator.io/published/a6b7a1cb-b0a0-4975-a10e-1e5ee651b0fd.js";
-         e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
-         })();
-         </script></div>
+  <!-- Place <div> tag where you want the feed to appear -->
+
+      <div class="p-6"><div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div><!-- The Javascript can be moved to the end of the html page before the </body> tag --></div>
 <Footthing />
+<script type="text/javascript">
+   /* curator-feed-default-feed-layout */
+   (function(){
+   var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+   i.src="https://cdn.curator.io/published/a6b7a1cb-b0a0-4975-a10e-1e5ee651b0fd.js";
+   e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+   })();
+
+   </script>
 </body>
 
 

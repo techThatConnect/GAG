@@ -38,7 +38,7 @@
 
 
           {#if test}
-          <div id="menu" class="flex justify-center menu hidden items-center w-auto pb-12 mx-auto">
+          <div id="menu" class="flex justify-center menu md:hidden items-center w-auto pb-12 mx-auto">
        
 
 
@@ -125,7 +125,7 @@
   grid-column-start: 2;
   margin: auto;
 text-align: center;
-display: block;
+
 
 }
 
@@ -136,7 +136,9 @@ display: block;
   grid-template-columns: 25% auto 25%;
 }
 
-
+.menu {
+  display: block;
+}
 
 }
   </style>

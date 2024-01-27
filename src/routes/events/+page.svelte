@@ -3,15 +3,9 @@
 export let data;
 
 let tickettailor = data.info.data
-let detail = false;
-let globUrl;
+
 console.log(tickettailor)
 
-function thisistest(x) {
-   detail = true
-   globUrl = tickettailor[x].url
-console.log(globUrl)
-}
 
 /*
 for(let o = 0; o < tickettailor.length; o++){
@@ -46,7 +40,7 @@ function convertDate(unixStamp){
 	<script src='https://widgets.sociablekit.com/eventbrite-events/widget.js' async defer></script>
 </svelte:head>
 
-<body class="min-h-full bg-black">
+<body class="min-h-screen bg-black">
    
 
 <br>
@@ -54,17 +48,11 @@ function convertDate(unixStamp){
    <h1 class="glow md:text-9xl text-6xl text-center font-bold ">Events</h1>
    
 </div>
-{#if detail }
-<div class="w-full h-full left-0 absolute  border-4 bg-black">
-   <button class="absolute right-0 text-light" on:click={() => detail = false}>close</button>
-   <br>
-<iframe title="details for event" class="w-full max-fifty-h lg:h-full" src="{globUrl}" frameborder="0"></iframe>
-</div>
-{/if}
-<div class="p-8 place-items-start border-2  m-4 bg-gradient-to-t from-light_pink to-light dark:to-dark dark:from-purp border-4 border-black ">
+
+<div class="p-8 place-items-start border-2  m-4  min-h-screen">
  
 
-   <div class=" dark:text-light_pink">
+   <div class=" text-light_pink">
 <p > From birthday parties to corporate events, to tours, to large-scale Pride festivals, we’re here to help you create a one-of-a-kind experience that your guests will never forget.
    </p>
    </div>
@@ -72,13 +60,15 @@ function convertDate(unixStamp){
    <br>
 <p id="test"></p>
 
-
+<!-- Ticket Tailor Widget. Paste this into your website where you want the widget to appear. Do not change the code or the widget may not work properly. -->
+<div class="tt-widget"><div class="tt-widget-fallback"><p><a href="https://www.tickettailor.com/all-tickets/techthatconnect/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true" target="_blank">Click here to buy tickets</a><br /><small><a href="https://www.tickettailor.com?rf=wdg_157951" class="tt-widget-powered">Sell tickets online with Ticket Tailor</a></small></p></div><script src="https://cdn.tickettailor.com/js/widgets/min/widget.js" data-url="https://www.tickettailor.com/all-tickets/techthatconnect/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true" data-type="inline" data-inline-minimal="true" data-inline-show-logo="false" data-inline-bg-fill="false" data-inline-inherit-ref-from-url-param="" data-inline-ref="website_widget"></script></div>
+<!-- End of Ticket Tailor Widget -->
 
 
 {#each tickettailor as event, i}
 
 {#if event.next_occurrence_date != null}
-<div class="rounded-xl border-4 block lg:flex ">
+<div class=" block lg:flex bg-gradient-to-t from-light_pink to-light dark:to-dark dark:from-purp">
    <div class="lg:max-fifty">
       <img class="object-cover h-full" src="{event.images.header}" alt="">
    </div>
@@ -90,8 +80,7 @@ function convertDate(unixStamp){
          <p>{event.venue.name} {event.venue.postal_code}</p>
          
       <a class="p-2 inline-block rounded-3xl mr-4 bg-light_pink hover:bg-dark_pink hover:dark:bg-purp" href="{event.url}">Buy Tickets</a>
-      <button on:click={() => thisistest(i)} class="p-2 inline-block rounded-3xl mr-4 bg-light_pink hover:bg-dark_pink hover:dark:bg-purp">Buy Tickets</button>
-      <div class="p-2">
+    <div class="p-2">
          {@html event.description}
       </div>
    
@@ -103,21 +92,14 @@ function convertDate(unixStamp){
 {/each}
 
 
-   <iframe src='https://widgets.sociablekit.com/eventbrite-events/iframe/164050' title="" frameborder='0' width='100%' height='1000'></iframe>
-
+   
    </div>
 
 <Footthing />
 </body>
 
    <style>
-    .max-fifty{
-      max-width: 50%;
-    }
 
-    .max-fifty-h {
-      max-height: 50vh;
-    }
 
     .glow {
       text-shadow: 
