@@ -125,8 +125,6 @@
   grid-column-start: 2;
   margin: auto;
 text-align: center;
-
-
 }
 
 

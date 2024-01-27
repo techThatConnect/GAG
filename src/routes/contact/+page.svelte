@@ -38,7 +38,7 @@
     
     <div class="md:flex-1  dark:text-light_pink">
       send us an email
-      <form class="text-left" name="email" method="POST" netlify-honeypot="bot-field" netlify>
+      <form class="text-left text-black" name="email" method="POST" netlify-honeypot="bot-field" netlify>
        <input type="hidden" name="form-name" value="email" /> 
 <div  >
          <label for="name" class="flex80 text-left">
