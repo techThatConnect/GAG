@@ -79,7 +79,7 @@ function convertDate(unixStamp){
          <p>{event.next_occurrence_date.date}      {event.next_occurrence_date.time} </p>
          <p>{event.venue.name} {event.venue.postal_code}</p>
          
-      <a class="p-2 inline-block rounded-3xl mr-4 bg-light_pink hover:bg-dark_pink hover:dark:bg-purp" href="{event.url}">Buy Tickets</a>
+      <a class="p-2 inline-block rounded-3xl mr-4 bg-dark_pink hover:bg-light_pink hover:border-2 border-dark_pink hover:dark:bg-purp" href="{event.url}">Buy Tickets</a>
     <div class="p-2">
          {@html event.description}
       </div>

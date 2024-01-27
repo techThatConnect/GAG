@@ -36,7 +36,9 @@
   grid-column-start: 3;
 }
 
-
+a{
+  font-size: large;
+}
 
 
 
